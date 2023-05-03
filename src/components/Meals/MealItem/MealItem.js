@@ -8,8 +8,9 @@ return<li className={Classes.meal}>
     <div className={Classes.price}>{price}</div>
     </div>
     <div>
-        <MealItemForm/>
+        <MealItemForm name={props.name} desp={props.description} pr={props.price}/>
     </div>
 </li>
 };
 export default MealItem;
+
